@@ -15,6 +15,7 @@ $array = [
 
 //echo ($a == 1)? "é igual a 1" : "não é igual a 1";
 
+/*
 $d = 10;
 
 switch($d) {
@@ -35,5 +36,14 @@ switch($d) {
         break;
             
 }
-            
+
+*/
+
+$cores = ["black","yellow","red","blue","green"];
+$corRand = array_rand($cores); 
+
+
 ?>
+
+<button style="background-color:<?=$cores[$corRand]?>">Botão</button>
+
